@@ -8,6 +8,8 @@ LVBM_ONYXIA_PHASE2_YELL			= "This meaningless exertion bores me. I'll incinerate
 LVBM_ONYXIA_PHASE2_ANNOUNCE		= "*** Phase 2 ***"
 LVBM_ONYXIA_PHASE3_YELL			= "It seems you'll need another lesson, mortals!";
 LVBM_ONYXIA_PHASE3_ANNOUNCE		= "*** Phase 3 ***"
+LVBM_ONYXIA_ROAR				= "Onyxia begins to cast Bellowing Roar."
+LVBM_ONYXIA_ROAR_ANNOUNCE		= "*** Bellowing Roar in 3 sec ***"
 
 -- LVLordKazzak
 LVBM_KAZZAK_NAME			= "Lord Kazzak";
@@ -98,11 +100,11 @@ LVBM_BGMOD_LANG["AV_ICEY"]		= "WHO DARES SUMMON LOKHOLAR";
 
 		-- AB
 LVBM_BGMOD_LANG["AB_ZONE"] 		= "Arathi Basin";
-LVBM_BGMOD_LANG["AB_START60SEC"]	= "The Battle for Arathi Basin will begin in 1 minute.";
-LVBM_BGMOD_LANG["AB_START30SEC"]	= "The Battle for Arathi Basin will begin in 30 seconds.";
-LVBM_BGMOD_LANG["AB_CLAIMSTHE"]	= "(.+) claims the (%w+)!  If left unchallenged, the (%w+) will control it in 1 minute!";
+LVBM_BGMOD_LANG["AB_START60SEC"]	= "The Battle for Arathi Basin begins in 1 minute.";
+LVBM_BGMOD_LANG["AB_START30SEC"]	= "The Battle for Arathi Basin begins in 30 seconds. Prepare yourselves!";
+LVBM_BGMOD_LANG["AB_CLAIMSTHE"]	= "(.+) claims the (%w+)! If left unchallenged, the (%w+) will control it in 1 minute!";
 LVBM_BGMOD_LANG["AB_HASTAKENTHE"]	= "The (%w+) has taken the (%w+)!";
-LVBM_BGMOD_LANG["AB_HASDEFENDEDTHE"]	= "The (%w+) has defended the (%w+)!";
+LVBM_BGMOD_LANG["AB_HASDEFENDEDTHE"]	= "(%w+) has defended the (%w+)";
 LVBM_BGMOD_LANG["AB_HASASSAULTED"]	= "has assaulted";
 LVBM_BGMOD_LANG["AB_SCOREEXP"] 		= "Bases: (%d+)  Resources: (%d+)/2000";
 LVBM_BGMOD_LANG["AB_WINALLY"] 		= "Alliance wins in:";

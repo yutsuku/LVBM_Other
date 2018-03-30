@@ -365,7 +365,7 @@ LVBM.AddOns.Battlegrounds = {
 					if string.find(arg1, LVBM_BGMOD_LANG["AB_HASASSAULTED"]) or string.find(arg1, LVBM_BGMOD_LANG["AB_CLAIMSTHE"]) then
 						--Initiate a timer w/ value as text string for 60 seconds
 						LVBM.EndStatusBarTimer(LVBM.AddOns.Battlegrounds.Options.StringHorde..LVBM.Capitalize(LVBM_BGMOD_EN_TARGET_AB[index]), true);
-						LVBM.StartColoredStatusBarTimer(64,  LVBM.AddOns.Battlegrounds.Options.StringAlliance..LVBM.Capitalize(LVBM_BGMOD_EN_TARGET_AB[index]), 0,0,1,1, true);
+						LVBM.StartColoredStatusBarTimer(60,  LVBM.AddOns.Battlegrounds.Options.StringAlliance..LVBM.Capitalize(LVBM_BGMOD_EN_TARGET_AB[index]), 0,0,1,1, true);
 
 					elseif string.find(arg1, LVBM_BGMOD_LANG["AB_HASDEFENDEDTHE"]) or string.find(arg1, LVBM_BGMOD_LANG["AB_HASTAKENTHE"]) then
 						--clear a timer for value
@@ -402,7 +402,7 @@ LVBM.AddOns.Battlegrounds = {
 					if string.find(arg1, LVBM_BGMOD_LANG["AB_HASASSAULTED"]) or string.find(arg1, LVBM_BGMOD_LANG["AB_CLAIMSTHE"]) then
 						--Initiate a timer w/ value as text string for 60 seconds
 						LVBM.EndStatusBarTimer(LVBM.AddOns.Battlegrounds.Options.StringAlliance..LVBM.Capitalize(LVBM_BGMOD_EN_TARGET_AB[index]), true);
-						LVBM.StartColoredStatusBarTimer(64, LVBM.AddOns.Battlegrounds.Options.StringHorde..LVBM.Capitalize(LVBM_BGMOD_EN_TARGET_AB[index]), 1,0,0,1, true);
+						LVBM.StartColoredStatusBarTimer(60, LVBM.AddOns.Battlegrounds.Options.StringHorde..LVBM.Capitalize(LVBM_BGMOD_EN_TARGET_AB[index]), 1,0,0,1, true);
 					elseif string.find(arg1, LVBM_BGMOD_LANG["AB_HASDEFENDEDTHE"]) or string.find(arg1, LVBM_BGMOD_LANG["AB_HASTAKENTHE"]) then
 						--clear a timer for value
 						if string.find(arg1, LVBM_BGMOD_LANG["AB_HASTAKENTHE"]) then
